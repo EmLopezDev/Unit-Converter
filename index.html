@@ -1,29 +1,54 @@
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
-        <script defer src="index.js"></script>
+        <link
+            rel="stylesheet"
+            href="index.css"
+        />
+        <script
+            defer
+            src="index.js"
+        ></script>
     </head>
     <body>
         <main class="container">
             <section class="input-section">
                 <h1 class="header">Metric/Imperial Unit Conversion</h1>
-                <input class="user-input" type="number" min="0" />
-                <button id="convert-btn">Convert</button>    
-            </section>    
+                <input
+                    class="user-input"
+                    type="number"
+                    min="0"
+                />
+                <button id="convert-btn">Convert</button>
+            </section>
             <section class="results-section">
                 <div class="result">
                     <h2 class="result-header">Length (Meters/Feet)</h2>
-                    <p class="result-details">20 meters = 65.616 feet | 20 feet = 6.096 meters</p>
+                    <p
+                        id="meter-feet"
+                        class="result-details"
+                    >
+                        20 meters = 65.616 feet | 20 feet = 6.096 meters
+                    </p>
                 </div>
                 <div class="result">
                     <h2 class="result-header">Volume (Liters/Gallons)</h2>
-                    <p class="result-details">20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos</p>
+                    <p
+                        id="liter-gallon"
+                        class="result-details"
+                    >
+                        20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos
+                    </p>
                 </div>
                 <div class="result">
                     <h2 class="result-header">Mass (Kilograms/Pounds)</h2>
-                    <p class="result-details">20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos</p>
+                    <p
+                        id="kilo-pounds"
+                        class="result-details"
+                    >
+                        20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos
+                    </p>
                 </div>
             </section>
-        <main>
+        </main>
     </body>
 </html>
