@@ -92,7 +92,19 @@ input[type="number"] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    padding: 30px;
+    gap: 20px;
+    padding: 40px;
     background-color: var(--tercery-bg-color);
+}
+
+.result-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--primary-font-color);
+}
+
+.result-details {
+    line-height: 5px;
+    color: var(--secondary-font-color);
 }
