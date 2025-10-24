@@ -66,17 +66,20 @@ function renderConversion(value) {
 
 convertButton.addEventListener("click", () => {
     renderConversion(userInput.value);
+    userInput.value = "";
 });
 
 convertButton.addEventListener("keydown", (evt) => {
     if (evt.key === "Enter") {
         renderConversion(userInput.value);
+        userInput.value = "";
     }
 });
 
 userInput.addEventListener("keydown", (evt) => {
     if (evt.key === "Enter") {
         renderConversion(userInput.value);
+        userInput.value = "";
     }
 });
 
