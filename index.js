@@ -80,6 +80,12 @@ userInput.addEventListener("keydown", (evt) => {
     }
 });
 
+userInput.addEventListener("input", () => {
+    if (userInput.value.length > 3) {
+        userInput.value = userInput.value.slice(0, 3);
+    }
+});
+
 /*
 Conversion reference
 1 meter = 3.281 feet
